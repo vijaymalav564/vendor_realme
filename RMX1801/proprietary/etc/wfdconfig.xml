@@ -698,16 +698,7 @@
         To disable/enable audio stream playback
         support during power suspend - 0 or 1
     -->
-
-    <!-- #ifndef VENDOR_EDIT -->
-    <!-- Hongbo.Dong@PSW.MM.AudioServer.Base.1297775, 2018/03/01, -->
-    <!-- Modify for audio should still playing on TV after screen off -->
-    <!--
     <AudioStreamInSuspend>0</AudioStreamInSuspend>
-    -->
-    <!-- #else  //VENDOR_EDIT -->
-    <AudioStreamInSuspend>1</AudioStreamInSuspend>
-    <!-- #endif //VENDOR_EDIT -->
 
     <!--
         Compensation delay for audio
