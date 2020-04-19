@@ -128,7 +128,7 @@ android_app_import {
 	name: "TimeService",
 	owner: "realme",
 	apk: "proprietary/vendor/app/TimeService/TimeService.apk",
-	certificate: ":timeservice_app_cert",
+	certificate: ":timeservice_app_cert-legacy-um",
 	dex_preopt: {
 		enabled: false,
 	},
